@@ -345,7 +345,7 @@ function App() {
             className="w-full h-full object-cover"
           >
             <source
-              src="../public/44765-440000959_small.mp4"
+              src="https://oiler.uz/static/media/small.89e415cba90db714f5eb.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
