@@ -687,7 +687,7 @@ function App() {
                   className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#006699] focus:border-transparent text-white"
                 />
                 <button className="w-full bg-[#006699] text-white py-2 rounded-lg hover:bg-opacity-90 transition-all">
-                  Subscribe
+                 Подписаться
                 </button>
               </form>
             </div>
