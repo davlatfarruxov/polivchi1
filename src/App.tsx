@@ -287,8 +287,8 @@ function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#products" className="text-white hover:text-[#000] transition-colors">Наши продукты</a>
             <a href="#info" className="text-white hover:text-[#000000] transition-colors">О компании</a>
-            <a href="https://loc.polivchi.uz" className="text-white hover:text-[#000] transition-colors">Локации</a>
-            <a href="#contact" className="text-white hover:text-[#000] transition-colors">Контакты</a>
+            <a href="#contact" className="text-white hover:text-[#000] transition-colors">Локации</a>
+            <a href="#https://loc.polivchi.uz" className="text-white hover:text-[#000] transition-colors">Контакты</a>
             <a href="https://b2b.moysklad.ru/public/zw65lYon6gVH">
               <button className="bg-white text-[#006699] px-4 py-2 rounded-full hover:bg-opacity-90 transition-all flex items-center">
                 <ShoppingCart className="w-5 h-5 mr-2" />
@@ -323,14 +323,14 @@ function Header() {
                 О компании
               </a>
               <a
-                href="#branches"
+                href="#contact"
                 className="text-white hover:text-[#006699] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Локации
               </a>
               <a
-                href="#contact"
+                href="https://loc.polivchi.uz"
                 className="text-white hover:text-[#006699] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
