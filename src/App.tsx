@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import video from '../public/small.mp4'
 import {
   Droplets,
   Package,
@@ -345,7 +346,7 @@ function App() {
             className="w-full h-full object-cover"
           >
             <source
-              src="https://oiler.uz/static/media/small.89e415cba90db714f5eb.mp4"
+              src={video}
               type="video/mp4"
             />
             Your browser does not support the video tag.
