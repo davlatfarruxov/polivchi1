@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import video from '../public/small.mp4'
+
 import logo from '../public/Без имени-1.jpg'
 import logo2 from '../public/Без имени-2.jpg'
 import product1 from '../public/Полуотвод чина.jpg'
