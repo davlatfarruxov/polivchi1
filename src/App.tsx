@@ -1,5 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import video from '../public/small.mp4'
+import logo from '../public/Без имени-1.jpg'
+import logo2 from '../public/Без имени-2.jpg'
+import product1 from '../public/Полуотвод чина.jpg'
+import product2 from '../public/капельница компенсирование.jpg'
+import product3 from '../public/Старт 16 LFT.jpg'
+import product4 from '../public/кран иран.jpg'
+import favicon from '../public/favicon.png'
 import {
   Droplets,
   Package,
@@ -27,25 +34,25 @@ const products = [
     title: 'Полуотвод 63 литьевой',
     description: 'Bысокое качество',
     price: '$1,42',
-    image: '../public/Полуотвод чина.jpg',
+    image: product1,
   },
   {
     title: 'Капельница 8л компрес',
     description: 'Bысокое качество',
     price: '$1.99',
-    image: '../public/капельница компенсирование.jpg',
+    image: product2,
   },
   {
     title: 'Старт 17x16 LFT',
     description: 'Bысокое качество',
     price: '$2.99',
-    image: '../public/Старт 16 LFT.jpg',
+    image: product3,
   },
   {
     title: 'Кран 63 компресс. (VISP)',
     description: 'Bысокое качество',
     price: '$12.99',
-    image: '../public/кран иран.jpg',
+    image: product4,
   },
 ];
 
@@ -107,37 +114,48 @@ const branches = [
 const sponsors = [
   {
     name: "AquaTech Solutions",
-    logo: "../public/favicon.png",
-  },
-  {
-    name: "GreenField Systems",
-    logo: "../public/favicon.png",
-  },
-  {
-    name: "Hydro Innovations",
-    logo: "../public/favicon.png",
+    logo: favicon,
   },
   {
     name: "AquaTech Solutions",
-    logo: "../public/favicon.png",
+    logo: favicon,
   },
   {
-    name: "GreenField Systems",
-    logo: "../public/favicon.png",
+    name: "AquaTech Solutions",
+    logo: favicon,
   },
   {
-    name: "Hydro Innovations",
-    logo: "../public/favicon.png",
+    name: "AquaTech Solutions",
+    logo: favicon,
   },
   {
-    name: "EcoWater Solutions",
-    logo: "../public/favicon.png",
+    name: "AquaTech Solutions",
+    logo: favicon,
   },
   {
-    name: "Smart Irrigation Co",
-    logo: "../public/favicon.png",
+    name: "AquaTech Solutions",
+    logo: favicon,
   },
+  {
+    name: "AquaTech Solutions",
+    logo: favicon,
+  },
+  {
+    name: "AquaTech Solutions",
+    logo: favicon,
+  },
+  {
+    name: "AquaTech Solutions",
+    logo: favicon,
+  },
+  {
+    name: "AquaTech Solutions",
+    logo: favicon,
+  },
+  
 ];
+
+
 
 
 function ScrollToTop() {
@@ -263,7 +281,7 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center space-x-2">
-            <img className='w-[180px]' src="../public/Без имени-1.jpg" alt="" />
+            <img className='w-[180px]' src={logo} alt="" />
           </a>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -368,14 +386,13 @@ function App() {
           </a>
         </div>
       </section>
-
-      {/* About Section */}
+          {/* About Section */}
       <section className="py-20" id='info'>
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className=" aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden">
-                <img
+              <img
                   src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=1200&h=900"
                   alt="Modern irrigation system"
                   className="w-full h-full object-cover"
@@ -431,9 +448,11 @@ function App() {
                 Узнать больше
                   <ChevronRight className="ml-2" />
                 </button>
-                <button className="border-2 border-[#006699] text-[#006699] px-8 py-3 rounded-full hover:bg-[#006699] hover:text-white transition-all flex items-center justify-center">
-                Связаться с нами
-                </button>
+                <a href="https://loc.polivchi.uz/">
+                  <button className="border-2 border-[#006699] text-[#006699] px-8 py-3 rounded-full hover:bg-[#006699] hover:text-white transition-all flex items-center justify-center">
+                  Связаться с нами
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -609,7 +628,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img className='w-[180px]' src="../public/Без имени-2.jpg" alt="" />
+                <img className='w-[180px]' src={logo2} alt="" />
                 
               </div>
               <p className="text-white ">
